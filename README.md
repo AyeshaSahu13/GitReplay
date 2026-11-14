@@ -87,14 +87,6 @@ Version slider with one node per milestone, code diff on the left, and the **Why
 ### Architecture
 Step-by-step view comparing each commit with the previous one. Changed modules are highlighted and unchanged ones are muted, with a list of data flows and whether each link was updated.
 
-> Add screenshots here:
->
-> ```
-> ![Overview](docs/overview.png)
-> ![Timeline](docs/timeline.png)
-> ![Architecture](docs/architecture.png)
-> ```
-
 ## How It Works
 
 1. **Input:** a public GitHub URL (optionally a folder or tag range) or a pasted git log
@@ -114,7 +106,7 @@ Step-by-step view comparing each commit with the previous one. Changed modules a
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/gitreplay.git
+git clone https://github.com/ayushraj102/gitreplay.git
 cd gitreplay
 npm install
 ```
