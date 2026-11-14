@@ -15,6 +15,13 @@ import { GitCommit, AIAnalysisResult } from '../types/git';
 import { MarkdownRenderer } from './MarkdownRenderer';
 import { fetchAIStream } from '../utils/streamClient';
 import {
+  buildApiUrl,
+  extractReadableErrorMessage,
+  isHtmlPayload,
+  parseApiErrorResponse,
+  STATIC_HOST_AI_HELP,
+} from '../utils/apiConfig';
+import {
   PROMPT_VERSION,
   normalizeQuestion,
   buildAICacheId,
@@ -123,7 +130,7 @@ export const AIArchitectAnalyzer: React.FC<AIArchitectAnalyzerProps> = ({
           }
         }
 
-        const res = await fetch('/api/ai/analyze-commit', {
+        const res = await fetch(buildApiUrl('/api/ai/analyze-commit'), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           signal,
@@ -135,11 +142,22 @@ export const AIArchitectAnalyzer: React.FC<AIArchitectAnalyzerProps> = ({
         });
 
         if (!res.ok) {
-          const errData = await res.json().catch(() => ({}));
-          throw new Error(errData.error || `Server responded with ${res.status}`);
+          throw new Error(await parseApiErrorResponse(res));
         }
 
-        const data = await res.json();
+        const contentType = res.headers.get('content-type') || '';
+        const rawBody = await res.text();
+        if (isHtmlPayload(rawBody, contentType)) {
+          throw new Error(STATIC_HOST_AI_HELP);
+        }
+
+        let data: any;
+        try {
+          data = JSON.parse(rawBody);
+        } catch {
+          throw new Error(extractReadableErrorMessage(rawBody, res.status));
+        }
+
         if (!data?.analysis || typeof data.analysis !== 'object') {
           throw new Error('Unexpected analysis format returned from server.');
         }

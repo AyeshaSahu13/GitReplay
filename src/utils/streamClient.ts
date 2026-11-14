@@ -1,3 +1,11 @@
+import {
+  buildApiUrl,
+  extractReadableErrorMessage,
+  isHtmlPayload,
+  parseApiErrorResponse,
+  STATIC_HOST_AI_HELP,
+} from './apiConfig';
+
 export interface StreamCallbacks {
   onChunk: (partialFullText: string) => void;
   onDone?: (meta: { modelUsed?: string; roleTitle?: string }) => void;
@@ -12,7 +20,7 @@ export async function fetchAIStream(
   callbacks: StreamCallbacks,
   signal?: AbortSignal
 ): Promise<{ text: string; modelUsed?: string; roleTitle?: string }> {
-  const response = await fetch(url, {
+  const response = await fetch(buildApiUrl(url), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     signal,
@@ -20,13 +28,21 @@ export async function fetchAIStream(
   });
 
   if (!response.ok) {
-    const errData = await response.json().catch(() => ({}));
-    throw new Error(errData.error || `Server responded with ${response.status}`);
+    throw new Error(await parseApiErrorResponse(response));
   }
 
   const contentType = response.headers.get('content-type') || '';
   if (!contentType.includes('text/event-stream') || !response.body) {
-    const data = await response.json();
+    const rawText = await response.text();
+    if (isHtmlPayload(rawText, contentType)) {
+      throw new Error(STATIC_HOST_AI_HELP);
+    }
+    let data: any;
+    try {
+      data = JSON.parse(rawText);
+    } catch {
+      throw new Error(extractReadableErrorMessage(rawText, response.status));
+    }
     const fullText = data.reply || data.answer || '';
     callbacks.onChunk(fullText);
     callbacks.onDone?.({ modelUsed: data.modelUsed, roleTitle: data.roleTitle });
@@ -55,7 +71,7 @@ export async function fetchAIStream(
       try {
         const parsed = JSON.parse(jsonStr);
         if (parsed.error) {
-          throw new Error(parsed.error);
+          throw new Error(extractReadableErrorMessage(String(parsed.error)));
         }
         if (typeof parsed.chunk === 'string') {
           fullText += parsed.chunk;

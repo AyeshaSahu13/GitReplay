@@ -93,7 +93,9 @@ async function testConnection() {
     }
   }
 }
-testConnection();
+if (typeof window !== 'undefined') {
+  testConnection();
+}
 
 /**
  * Sanitizes any identifier to strictly match `^[a-zA-Z0-9_-]+$` and <= 128 chars
@@ -104,11 +106,28 @@ export function sanitizeFirestoreId(raw: string, fallback = 'id'): string {
 }
 
 export async function signInWithGoogle() {
-  const result = await signInWithPopup(auth, googleProvider);
-  if (result.user) {
-    await syncUserProfile(result.user);
+  try {
+    const result = await signInWithPopup(auth, googleProvider);
+    if (result.user) {
+      await syncUserProfile(result.user);
+    }
+    return result.user;
+  } catch (err: any) {
+    const code = err?.code || '';
+    if (code === 'auth/unauthorized-domain') {
+      const host = typeof window !== 'undefined' ? window.location.hostname : 'this host';
+      throw new Error(
+        `Domain "${host}" is not authorized for Google sign-in in Firebase Console (Authentication -> Settings -> Authorized domains). Add "${host}" there to enable Cloud Sync, or continue using GitReplay locally with IndexedDB.`
+      );
+    }
+    if (code === 'auth/popup-blocked') {
+      throw new Error('Sign-in popup was blocked by your browser. Allow popups for this site and try again.');
+    }
+    if (code === 'auth/popup-closed-by-user' || code === 'auth/cancelled-popup-request') {
+      throw new Error('Google sign-in popup was closed before completing.');
+    }
+    throw err;
   }
-  return result.user;
 }
 
 export async function signOutUser() {
