@@ -1,0 +1,788 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 11274
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.055 0.647 0.914 rg
+44. 793.8899999999999864 Td
+(GITREPLAY ONBOARDING SUMMARY) Tj
+ET
+BT
+/F2 20 Tf
+23. TL
+0.059 0.09 0.165 rg
+44. 775.8899999999999864 Td
+(prism-labs/realtime-crdt-engine) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.392 0.455 0.545 rg
+44. 749.8899999999999864 Td
+(Branch: main | Language: TypeScript | Generated: 2026-11-14) Tj
+ET
+0.89 0.91 0.94 RG
+1. w
+44. 735.8899999999999864 m
+551.2799999999999727 735.8899999999999864 l
+S
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.2 0.255 0.333 rg
+44. 719.8899999999999864 Td
+(Evolution of a collaborative document sync engine from naive REST polling to a conflict-free replicated data) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.2 0.255 0.333 rg
+44. 705.8899999999999864 Td
+(type \(LWW-Element-Set CRDT\) over multiplexed WebSockets.) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+48. 681.8899999999999864 m
+160.8199999999999932 681.8899999999999864 l
+163.0291389993231803 681.8899999999999864 164.8199999999999932 680.0991389993231451 164.8199999999999932 677.8899999999999864 c
+164.8199999999999932 641.8899999999999864 l
+164.8199999999999932 639.6808610006768276 162.610861000676806 637.8899999999999864 160.8199999999999932 637.8899999999999864 c
+48. 637.8899999999999864 l
+45.7908610006768271 637.8899999999999864 44. 640.0991389993231451 44. 641.8899999999999864 c
+44. 677.8899999999999864 l
+44. 680.0991389993231451 46.2091389993231729 681.8899999999999864 48. 681.8899999999999864 c
+h
+B
+BT
+/F2 7.5 Tf
+8.625 TL
+0.392 0.455 0.545 rg
+54. 666.8899999999999864 Td
+(COMMITS) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+54. 649.8899999999999864 Td
+(7) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+176.8199999999999932 681.8899999999999864 m
+289.6399999999999864 681.8899999999999864 l
+291.8491389993231451 681.8899999999999864 293.6399999999999864 680.0991389993231451 293.6399999999999864 677.8899999999999864 c
+293.6399999999999864 641.8899999999999864 l
+293.6399999999999864 639.6808610006768276 291.4308610006768276 637.8899999999999864 289.6399999999999864 637.8899999999999864 c
+176.8199999999999932 637.8899999999999864 l
+174.610861000676806 637.8899999999999864 172.8199999999999932 640.0991389993231451 172.8199999999999932 641.8899999999999864 c
+172.8199999999999932 677.8899999999999864 l
+172.8199999999999932 680.0991389993231451 175.0291389993231803 681.8899999999999864 176.8199999999999932 681.8899999999999864 c
+h
+B
+BT
+/F2 7.5 Tf
+8.625 TL
+0.392 0.455 0.545 rg
+182.8199999999999932 666.8899999999999864 Td
+(CONTRIBUTORS) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+182.8199999999999932 649.8899999999999864 Td
+(3) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+305.6399999999999864 681.8899999999999864 m
+418.4599999999999795 681.8899999999999864 l
+420.6691389993231383 681.8899999999999864 422.4599999999999795 680.0991389993231451 422.4599999999999795 677.8899999999999864 c
+422.4599999999999795 641.8899999999999864 l
+422.4599999999999795 639.6808610006768276 420.2508610006768208 637.8899999999999864 418.4599999999999795 637.8899999999999864 c
+305.6399999999999864 637.8899999999999864 l
+303.4308610006768276 637.8899999999999864 301.6399999999999864 640.0991389993231451 301.6399999999999864 641.8899999999999864 c
+301.6399999999999864 677.8899999999999864 l
+301.6399999999999864 680.0991389993231451 303.8491389993231451 681.8899999999999864 305.6399999999999864 681.8899999999999864 c
+h
+B
+BT
+/F2 7.5 Tf
+8.625 TL
+0.392 0.455 0.545 rg
+311.6399999999999864 666.8899999999999864 Td
+(VERSION) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+311.6399999999999864 649.8899999999999864 Td
+(v1.0.0) Tj
+ET
+0.97 0.98 0.99 rg
+0.89 0.91 0.94 RG
+434.4599999999999795 681.8899999999999864 m
+547.2799999999999727 681.8899999999999864 l
+549.4891389993231314 681.8899999999999864 551.2799999999999727 680.0991389993231451 551.2799999999999727 677.8899999999999864 c
+551.2799999999999727 641.8899999999999864 l
+551.2799999999999727 639.6808610006768276 549.070861000676814 637.8899999999999864 547.2799999999999727 637.8899999999999864 c
+434.4599999999999795 637.8899999999999864 l
+432.2508610006768208 637.8899999999999864 430.4599999999999795 640.0991389993231451 430.4599999999999795 641.8899999999999864 c
+430.4599999999999795 677.8899999999999864 l
+430.4599999999999795 680.0991389993231451 432.6691389993231383 681.8899999999999864 434.4599999999999795 681.8899999999999864 c
+h
+B
+BT
+/F2 7.5 Tf
+8.625 TL
+0.392 0.455 0.545 rg
+440.4599999999999795 666.8899999999999864 Td
+(TIMELINE) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+440.4599999999999795 649.8899999999999864 Td
+(2026-08-12 to) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.09 0.165 rg
+44. 619.8899999999999864 Td
+(1. Current Architecture Snapshot) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 603.8899999999999864 Td
+([CLIENT] Offline WAL + Batcher \(Zero offline loss\) - Persists unacknowledged deltas and sends local StateVector on) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 590.8899999999999864 Td
+(reconnect) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 575.8899999999999864 Td
+([EDGE] Room Pub/Sub Broker \(O\(k\) catch-up\) - Negotiates StateVector handshake upon WebSocket upgrade) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 560.8899999999999864 Td
+([CORE] LWW CRDT + StateVector \(<25ms resync\) - Computes exact missing delta slice via high-water vector diff) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 545.8899999999999864 Td
+([STORAGE] IndexedDB Snapshot Store \(Local-first\) - Durable client-side CRDT log for instant cold boot) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.09 0.165 rg
+44. 520.8899999999999864 Td
+(2. Key Architectural Milestones) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+44. 504.8899999999999864 Td
+([4a19b0c] \(v0.1.0-alpha\) Initial synchronous HTTP state store with full-document snapshots) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.392 0.455 0.545 rg
+44. 490.8899999999999864 Td
+(Elena Vance | 2026-08-12 | Architecture) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 478.8899999999999864 Td
+(Decision: Implemented a synchronous DocumentStore keyed by docId that replaces the entire key-value record map) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 465.8899999999999864 Td
+(on every write.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.055 0.455 0.565 rg
+52. 452.8899999999999864 Td
+(Outcome: 220ms average round-trip sync latency | 18% lost updates under 5-user concurrency) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+44. 431.8899999999999864 Td
+([9f4b22d] \(v0.3.0\) Introduce Hybrid Logical Clock \(HLC\) & fine-grained field patches) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.392 0.455 0.545 rg
+44. 417.8899999999999864 Td
+(Elena Vance | 2026-09-02 | Architecture) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 405.8899999999999864 Td
+(Decision: Introduced HybridLogicalClock \(wallTime + 16-bit logical counter + deterministic nodeId tie-breaker\) and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 392.8899999999999864 Td
+(decomposed mutations into atomic FieldDelta packets.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.055 0.455 0.565 rg
+52. 379.8899999999999864 Td
+(Outcome: 0% retry errors | Payload size reduced by 89% \(from 42KB full doc to 180B delta\)) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+44. 358.8899999999999864 Td
+([b28d40e] Support tombstone deletions in LWW-Element-Set CRDT state) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.392 0.455 0.545 rg
+44. 344.8899999999999864 Td
+(Sora Takahashi | 2026-09-14 | Architecture) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 332.8899999999999864 Td
+(Decision: Converted field storage into an LWW-Element-Set CRDT where deletions write `deleted: true` tombstones) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 319.8899999999999864 Td
+(guarded by HLC comparison.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.055 0.455 0.565 rg
+52. 306.8899999999999864 Td
+(Outcome: Passed 10,000-permutation Jepsen-style out-of-order fuzz tests with 100% state convergence) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 0.09 0.165 rg
+44. 285.8899999999999864 Td
+([d41a88c] \(v0.5.0\) Replace HTTP polling with multiplexed WebSocket pub/sub broker) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.392 0.455 0.545 rg
+44. 271.8899999999999864 Td
+(Marcus Chen | 2026-09-27 | Performance) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 259.8899999999999864 Td
+(Decision: Replaced polling endpoints with room-scoped WebSocket subscriber sets that only broadcast deltas that) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.2 0.255 0.333 rg
+52. 246.8899999999999864 Td
+(actually win the CRDT HLC check.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.055 0.455 0.565 rg
+52. 233.8899999999999864 Td
+(Outcome: p95 propagation latency dropped from 640ms to 14ms | Idle CPU down 78%) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.09 0.165 rg
+44. 212.8899999999999864 Td
+(3. Chronological Evolution Digest \(7 commits, 1 annotated\)) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 196.8899999999999864 Td
+(1. [4a19b0c] Initial synchronous HTTP state store with full-document snapshots) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 183.8899999999999864 Td
+(2026-08-12 | Architecture | Elena Vance - Implemented a synchronous DocumentStore keyed by docId that replaces the entire) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 171.8899999999999864 Td
+(key-value record map on every write.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.055 0.455 0.565 rg
+54. 159.8899999999999864 Td
+(Note: Verified onboarding note) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 143.8899999999999864 Td
+(2. [7c3e91f] Enforce optimistic concurrency control via expectedVersion guards) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 130.8899999999999864 Td
+(2026-08-18 | Bugfix | Marcus Chen - Replaced blind overwrite with updateWithCAS\(docId, expectedVersion, content\) and explicit) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 118.8899999999999864 Td
+(VersionConflictError rejection.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 102.8899999999999864 Td
+(3. [9f4b22d] Introduce Hybrid Logical Clock \(HLC\) & fine-grained field patches) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 89.8899999999999864 Td
+(2026-09-02 | Architecture | Elena Vance - Introduced HybridLogicalClock \(wallTime + 16-bit logical counter + deterministic nodeId) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 77.8899999999999864 Td
+(tie-breaker\) and decomposed mutations into atomic FieldDelta packets.) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+44. 32. m
+551.2799999999999727 32. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+44. 19. Td
+(GitReplay | prism-labs/realtime-crdt-engine) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+510.6399999999999864 19. Td
+(Page 1 of 2) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 2514
+>>
+stream
+1. w
+0.89 0.91 0.94 RG
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 793.8899999999999864 Td
+(4. [b28d40e] Support tombstone deletions in LWW-Element-Set CRDT state) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 780.8899999999999864 Td
+(2026-09-14 | Architecture | Sora Takahashi - Converted field storage into an LWW-Element-Set CRDT where deletions write) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 768.8899999999999864 Td
+(`deleted: true` tombstones guarded by HLC comparison.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 752.8899999999999864 Td
+(5. [d41a88c] Replace HTTP polling with multiplexed WebSocket pub/sub broker) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 739.8899999999999864 Td
+(2026-09-27 | Performance | Marcus Chen - Replaced polling endpoints with room-scoped WebSocket subscriber sets that only) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 727.8899999999999864 Td
+(broadcast deltas that actually win the CRDT HLC check.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 711.8899999999999864 Td
+(6. [e83f19a] Batch micro-deltas over 16ms frame window to prevent socket head-of-line blocking) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 698.8899999999999864 Td
+(2026-10-08 | Performance | Sora Takahashi - Created DeltaBatcher which folds intermediate updates to the same `\(docId, fieldKey\)`) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 686.8899999999999864 Td
+(within a 16ms frame window using the same HLC comparator as the server.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 0.09 0.165 rg
+44. 670.8899999999999864 Td
+(7. [f09c77e] Add IndexedDB write-ahead log \(WAL\) & Merkle state vector anti-entropy sync) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 657.8899999999999864 Td
+(2026-10-21 | Architecture | Elena Vance - Added per-node HLC StateVector tracking and `computeMissingDeltas\(docId, peerVector\)`) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+54. 645.8899999999999864 Td
+(so reconnecting peers exchange only deltas newer than their high-water mark.) Tj
+ET
+0.89 0.91 0.94 RG
+0.5 w
+44. 32. m
+551.2799999999999727 32. l
+S
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+44. 19. Td
+(GitReplay | prism-labs/realtime-crdt-engine) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+510.6399999999999864 19. Td
+(Page 2 of 2) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261114052700-00'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000014182 00000 n 
+0000016007 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000011479 00000 n 
+0000011616 00000 n 
+0000014245 00000 n 
+0000014370 00000 n 
+0000014500 00000 n 
+0000014633 00000 n 
+0000014771 00000 n 
+0000014895 00000 n 
+0000015024 00000 n 
+0000015156 00000 n 
+0000015292 00000 n 
+0000015420 00000 n 
+0000015547 00000 n 
+0000015676 00000 n 
+0000015809 00000 n 
+0000015911 00000 n 
+0000016257 00000 n 
+0000016343 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <A402EF0F67F4D30281862554D0EF3782> <A402EF0F67F4D30281862554D0EF3782> ]
+>>
+startxref
+16447
+%%EOF
