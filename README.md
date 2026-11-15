@@ -148,9 +148,7 @@ For large repositories, scope to a single folder or a range between two release 
 
 ## Tech Stack
 
-> Edit this section to match your implementation.
-
-- **Frontend:** (for example React + TypeScript)
+- **Frontend:** TypeScript
 - **Data source:** GitHub REST API
 - **AI:** Gemini API
 - **Export:** PDF and Markdown generation
